@@ -1,0 +1,94 @@
+/*!
+=========================================================
+* Steller Landing page
+=========================================================
+
+* Copyright: 2019 DevCRUD (https://devcrud.com)
+* Licensed: (https://devcrud.com/licenses)
+* Coded by www.devcrud.com
+
+=========================================================
+
+* The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+*/
+.pcolor {
+  color: #252525;
+}
+.mb-4,
+.my-4 {
+  margin-bottom: 1.5rem !important;
+}
+.mb-5,
+.my-5 {
+  margin-bottom: 3rem !important;
+  color: #252525;
+}
+.pb-4,
+.py-4 {
+  padding-bottom: 1.5rem !important;
+}
+
+.text-center {
+  text-align: center !important;
+}
+
+.section-title-stell {
+  font-size: calc(20px + (30 - 20) * ((100vw - 320px) / (1200 - 320)));
+  color: #252525;
+}
+
+@media (min-width: 992px) {
+  .section-title-stell {
+    font-size: 20px;
+    color: #252525;
+  }
+}
+
+.subtitle {
+  font-size: calc(30px + (30 - 20) * ((100vw - 320px) / (1200 - 320)));
+  color: #252525;
+}
+
+@media (min-width: 992px) {
+  .subtitle {
+    font-size: 35px;
+  }
+}
+
+.testmonial-card {
+  background: #fff;
+  box-shadow: 2px 3px 10px rgba(8, 0, 0, 0.3);
+  border-radius: 0.25rem;
+  max-width: 700px;
+  margin: 10px auto;
+  padding: 20px 15px;
+}
+
+.testmonial-card img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  box-shadow: 2px 3px 10px rgba(206, 212, 218, 0.3);
+  margin-bottom: 30px;
+}
+
+.testmonial-card .title {
+  margin-top: 30px;
+  font-size: 20px;
+  color: #252525;
+}
+
+.carousel .carousel-indicators {
+  bottom: -60px;
+}
+
+.carousel .carousel-indicators li {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  box-shadow: inset 1px 1px 10px rgba(173, 181, 189, 0.3), inset -1px -1px 7px rgba(173, 181, 189, 0.3);
+}
+
+.carousel .carousel-indicators li.active {
+  box-shadow: 0 0 5px rgba(108, 117, 125, 0.3);
+}
